@@ -8,8 +8,8 @@ let closebtn= document.getElementById("closebtn")
 // closebtn.style.background= "red"
 
 openbtn.addEventListener("click", function() {
-    openPopup.style.display= "block"
     overlay.style.display= "block"
+    openPopup.style.display= "block"
 })
 
 closebtn.addEventListener("click", function() {
